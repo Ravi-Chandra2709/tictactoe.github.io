@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<script src="https://kit.fontawesome.com/84188267d4.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="tfiles/tictactoe.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="jumbotron">
+		<h1><i class="fas fa-cubes"></i> TicTacToe <sub>Only for the intellectual pals.</sub></h1>
+		<hr>
+	<div id="stripe">
+		<div id="one">
+			<h2 id="p1"><span id="span1"></span></h2>
+			<input type="text" placeholder="playerX" id="ip1">
+		</div>
+		<h2 id="h2"></h2>
+		<div id="two">
+			<h2 id="p2"><span id="span2"></span></h2>
+			<input type="text" placeholder="playerO" id="ip2">
+		</div>
+		<button onclick="reset_board()" class="btn btn-xs"><i class="fas fa-redo"></i>reset</button>
+	</div>
+</div>
+	<h3 id="winner"></h3>
+	<div class="container">
+		  <div class="play-area">
+		    <div id="block_0" class="block"></div>
+		    <div id="block_1" class="block"></div>
+		    <div id="block_2" class="block"></div>
+		    <div id="block_3" class="block"></div>
+		    <div id="block_4" class="block"></div>
+		    <div id="block_5" class="block"></div>
+		    <div id="block_6" class="block"></div>
+		    <div id="block_7" class="block"></div>
+		    <div id="block_8" class="block"></div>
+		  </div>
+	</div>
+	<script type="text/javascript" src="tfiles/tictactoe.js"></script>
+</body>
+</html>
