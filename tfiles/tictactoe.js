@@ -98,7 +98,7 @@ const check_match = () => {
 const check_for_winner = () => {
   let res = check_match();
   if (res == player) {
-    winner.innerText = "Winner is player X";
+    winner.innerText = "Winner is player";
     winner.classList.add("playerWin");
     board_full = true
   } else if (res == computer) {
